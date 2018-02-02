@@ -14,6 +14,7 @@ const fetch = require('node-fetch');
       console.log('POST #', x);
       console.log('title: ', posts[x].data.title);
       console.log('url: ', posts[x].data.url);
+      console.log('score: ', posts[x].data.score);
     }
   })
 })();
